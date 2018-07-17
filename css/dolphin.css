@@ -1,3 +1,9 @@
+/* For the dolphin, using min-width and max-width help her rotate and jump up
+  through the hoop from screen sizes of 642px to 1090px. Note: you can use
+  transform: rotate() command to accomplish this. [Read about the setting for
+  rotate here at Mozilla Developer Network(https://developer.mozilla.org/en-US/docs/Web/CSS/transform).*/
+
+
 html {
   background: url(../images/water-park.jpg) no-repeat top left;
 }
@@ -20,3 +26,16 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1170px) and (min-width: 406px) {
+ #dolphin {
+    top: 3px;
+    transform: rotate(180deg)
+   }
+}
+
+@media only screen and (max-width: 690px) and (min-width: 106px) {
+ #dolphin {
+    top: -10px;
+    transform: rotate(60deg)
+   }
+}
