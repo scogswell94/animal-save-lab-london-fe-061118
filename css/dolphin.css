@@ -26,6 +26,7 @@ html {
 
 /* Write your solution here */
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1170px) and (min-width: 406px) {
  #dolphin {
     top: 3px;
@@ -39,3 +40,10 @@ html {
     transform: rotate(60deg)
    }
 }
+=======
+@media only screen and (m-width: px) {
+ #dolphin {
+    left: px;
+  }
+}
+>>>>>>> e3b3004941da75e1ede212d1329360fa98f30868

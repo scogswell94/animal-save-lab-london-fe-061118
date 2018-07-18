@@ -16,9 +16,20 @@ html {
 
 /* Write your solution here */
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1320px) {
  #ostrich {
     top: -50px;
    }
 }
 
+=======
+@media only screen and (max-width: 1316px) {
+ #ostrich{
+    top: -100px;
+  }
+  
+}
+
+
+>>>>>>> e3b3004941da75e1ede212d1329360fa98f30868

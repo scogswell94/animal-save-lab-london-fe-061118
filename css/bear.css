@@ -16,7 +16,14 @@ html {
 /* Write your solution here */
 
 @media only screen and (min-width: 1196px) {
+<<<<<<< HEAD
     #bear {
         left: 800px;
     }
 }
+=======
+ #bear{
+    left: 800px;
+  }
+}
+>>>>>>> e3b3004941da75e1ede212d1329360fa98f30868

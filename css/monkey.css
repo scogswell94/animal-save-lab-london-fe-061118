@@ -14,6 +14,7 @@ html {
 
 /* Write your solution here */
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1170px) {
  #monkey {
     top: 3px;
@@ -25,4 +26,10 @@ html {
  #monkey {
     bottom: -6px;
    }
+=======
+@media only screen and (m-width: px) {
+ #monkey {
+    left: px;
+  }
+>>>>>>> e3b3004941da75e1ede212d1329360fa98f30868
 }
